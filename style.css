@@ -1,0 +1,144 @@
+/* Apply to all sections */
+/* Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.title{
+    font-weight: 500;
+}
+/* End of Apply to all  sections*/
+
+
+/* header */
+.h-b-image {
+    background: url("./assets/images/hero-img.png");
+    background-size:  cover;
+    background-position:right;
+    background-repeat: no-repeat;
+}
+
+
+.h-contact-button{
+    background-color: #fab95b;
+    border-radius: 200px;
+    border: 1px #fab95b solid;
+    padding: 2% 6%;
+    color: white;
+}
+
+.hero{
+   padding: 10%;
+}
+
+/* end of header */
+
+
+
+/* services */
+.services {
+    background-color: #f5f5f5;
+}
+
+.s-icon-fa {
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #fab95b;
+    color: white;
+
+}
+/* end of services */
+
+
+/* about */
+.p-b-color {
+    background-color: #fab95b;   
+}
+.a-progress-title{
+    font-weight: bold;
+}
+/* end of about */
+
+
+/* reviews */
+.reviews {
+    background-color: #fab95b;
+    color: white;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.c-i-quotation-mark {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.saying {
+    font-style: italic;
+    /* font-weight: 300; */
+}
+
+.speaker {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* end of reviews */
+
+/* blog */
+.blog {
+    /* height: 100vh; */
+    background-color: #f5f5f5;
+}
+
+.card-subtitle {
+    color: lightgrey;
+}
+
+.card-link {
+    color: #fab95b;
+}
+
+/* end of blog */
+
+/* contact */
+.contact {
+    background-color: #fab95b;
+    color: white;
+}
+
+.c-f-input {
+    color: white;
+    border-bottom: 2px white solid;
+}
+
+.c-f-input::-webkit-input-placeholder {
+    color: white;
+}
+
+.c-submit-button {
+    border-radius: 200px;
+    border: 1px #343a40 solid;
+}
+
+/* end of contact */
+/* footer */
+.link {
+    text-decoration: none;
+    color: #94969c;
+}
+
+.footer {
+    color: #94969c;
+    height: 70vh
+}
+
+/* end of footer */
